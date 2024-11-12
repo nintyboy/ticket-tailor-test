@@ -1,0 +1,62 @@
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Inter:opsz,wght@14..32,300&display=swap"
+  rel="stylesheet">
+  <link rel="stylesheet" href="./css/index.css">
+  <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" />
+  
+  <script src="./js/script.js"></script>
+
+</head>
+
+<body>
+  <div class="container">
+    <div class="wrapper">
+    <div class="dropdown ">
+      <div class="dropdown__box">
+        <!-- <input type="text" class="dropdown__box--event-input" hidden /> -->
+        <div class="dropdown__box--label">
+          Events
+        </div>
+        <div class="dropdown__selected">
+        </div>
+        <div class="dropdown__box--controls">
+          <div class="dropdown__box--menu-clear hidden">
+            <i class="fa-solid fa-xmark"></i>
+          </div>
+        <div class="dropdown__box--menu-toggle">
+          <i class="fa-solid fa-angle-down"></i>
+        </div>
+        </div> 
+      </div>
+      <div class="dropdown__menu hidden event-filter ">
+        <div class="dropdown__menu--container ">
+            <i class="fa-solid fa-search input-icons"></i>
+          <input type="text" class="dropdown__menu--search-input " placeholder="Search Events" >
+  
+          </input>
+         
+        </div>
+        <div class="no-results hidden ">No matching results</div>
+       
+      </div>
+    
+    </div>
+    
+
+    <input type="button" class="dropdown__box--submit_btn" value="Submit" />
+    
+    </div>
+    <span class="error_msg hidden">Please add some events</span>
+    
+    <div class="event-list">
+       
+ 
+  </div> <!--- End of container --->
+
+
+
+</body>
